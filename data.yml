@@ -1,0 +1,82 @@
+ids:
+ - 20
+ - 144
+media:
+  - 640
+  - 540
+  - 520
+  - 480
+  - 380
+  - 360
+  - 320
+  - 300
+
+targets:
+  - data-testid: tweet
+  - data-testid: card.wrapper
+
+
+
+matrix:
+  views:
+    - timeline
+    - focal
+    - embed
+  themes:
+    - dark
+    - dim
+    - light
+  accents:
+    # - blue
+    # - yellow
+    # - pink
+    # - green
+    # - orange
+    - purple
+  fontSizes:
+    - xs
+    - sm
+    - default
+    - large
+    - extra-large
+
+browsers:
+  - chromium
+  - firefox
+  - webkit
+reading_mode:
+  - rtl
+  - ltr
+browser_widths:
+  - 640px
+  - 512px
+  - 460px 
+  - 425px # mobile lg
+  - 375px # mobile lg
+  - 320px # mobile sm
+components:
+  Translate:
+  Text:
+    - PlainText  # native emojis
+    - Emote      # private, custom emojis
+    - Link       # Url, Mentions, etc
+  OpenGraph:
+    - small: icon, no-icon
+    - large: icon, no-icon
+    - youtube # custom
+    - github # custom
+  TwitterSpace: scheduled, ongoing, recorded, deleted
+  TombStone: # Generic card with text that can be anything
+  Image: 'ok, 404, warning, alt_text'
+  MediaGrid: 1-4
+  Video: 'GIF'
+  UnifiedCard: '#TODO'
+  BirdWatch:
+  TweetAnnotation:
+    props: icon, text, foreground, background
+  Cards:
+    - 745291183405076480:live_event
+    - promo_image_app
+    - unified_card
+    - interactive text
+    - 

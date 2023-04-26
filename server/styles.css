@@ -1,0 +1,1000 @@
+
+.chunk {
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 720px;
+}
+.contain {
+    content-visibility: auto;
+    contain-intrinsic-size: 64000px;
+}
+.timeline .tweet {
+    max-width: 720px;
+    margin: 0;
+    border-radius: 0;
+    border-top: solid 1px var(--tw-border);
+    border-left: solid 1px var(--tw-border);
+    border-right: solid 1px var(--tw-border);
+    gap: 4px 8px;
+}
+
+:root {
+    --tw-border-radius: 8px;
+    --tw-poll-radius: 6px;
+    --profile-pic-width: 45px;
+}
+
+.dark {
+    --nc-tx-1: #ffffff;
+    --nc-tx-2: #eeeeee;
+    --nc-bg-1: #000000;
+    --nc-bg-2: #111111;
+    --nc-bg-3: #222222;
+    --nc-lk-1: #3291FF;
+    --nc-lk-2: #0070F3;
+    --nc-lk-tx: #FFFFFF;
+    --nc-ac-1: #7928CA;
+    --nc-ac-tx: #FFFFFF;
+}
+
+.i {
+    --tw-text: white;
+    --tw-checkmark: white;
+    --tw-txt-2: #a3a3a3;
+    --tw-bg: #000;
+    --tw-border: #262626;
+    --tw-likes-bg-hover: #991b1b40;
+    --tw-likes-text-hover: #f64b5c;
+    --tw-link-bg-hover: #1e40af40;
+    --tw-link-text: #60a5fa;
+    --tw-link-text-hover: #60a5fa;
+    --tw-og-border: #262626;
+    --tw-og-document: #d4d4d4;
+    --tw-og-hover: #171717;
+    --tw-og-no-img: #262626;
+    --tw-poll-bar-win: #1e3a8a;
+    --tw-poll-bar: #40404090;
+    --tw-thread-line: #3f3f46;
+}
+:root {
+    --neutral-050: #fafafa;
+    --neutral-100: #f5f5f5;
+    --neutral-200: #e5e5e5;
+    --neutral-300: #d4d4d4;
+    --neutral-400: #a3a3a3;
+    --neutral-500: #737373;
+    --neutral-600: #525252;
+    --neutral-700: #404040;
+    --neutral-800: #262626;
+    --neutral-900: #171717;
+
+    --sky-050: #f0f9ff;
+    --sky-100: #e0f2fe;
+    --sky-200: #bae6fd;
+    --sky-300: #7dd3fc;
+    --sky-400: #38bdf8;
+    --sky-500: #0ea5e9;
+    --sky-600: #0284c7;
+    --sky-700: #0369a1;
+    --sky-800: #075985;
+    --sky-900: #0c4a6e;
+}
+
+.dark,
+:root {
+    --tw-text: var(--neutral-100);
+    --tw-txt-2: var(--neutral-300);
+    --tw-checkmark: var(--sky-400);
+    --tw-bg: var(--neutral-900);
+    --tw-border: var(--neutral-700);
+    --tw-likes-bg-hover: #991b1b40;
+    --tw-likes-text-hover: #f64b5c;
+    --tw-link-bg-hover: #1e40af40;
+    --tw-link-text: var(--sky-400);
+    --tw-link-text-hover: var(--sky-700);
+    --tw-og-border: #262626;
+    --tw-og-document: #d4d4d4;
+    --tw-og-hover: #171717;
+    --tw-og-no-img: #262626;
+    --tw-poll-bar-win: var(--sky-700);
+    --tw-poll-bar: var(--neutral-800);
+    --tw-thread-line: #3f3f46;
+}
+
+.dark .blue:hover,
+:root .blue:hover {
+    --color: #38bdf8;
+    --bg: #0ea5e91A;
+}
+
+.dark .red:hover,
+:root .red:hover {
+    --color: #ef4444;
+    --bg: #ef44441A;
+}
+
+.dark .green:hover,
+:root .green:hover {
+    --color: #4ade80;
+    --bg: #22c55e1A;
+}
+
+.light {
+    --tw-thread-line: #d4d4d8;
+    --tw-text: #0f172a;
+    --tw-txt-2: #334155;
+    --tw-bg: white;
+    --tw-border: #e2e8f0;
+    --tw-checkmark: #3b82f6;
+    --tw-link-text: #3b82f6;
+    --tw-link-text-hover: #3b82f6;
+    --tw-likes-text-hover: #ef4444;
+    --tw-likes-bg-hover: #fecaca60;
+    --tw-link-bg-hover: #bfdbfe60;
+    --tw-og-border: #cbd5e1;
+    --tw-og-document: #334155;
+    --tw-og-hover: #f8fafc;
+    --tw-og-no-img: #f1f5f9;
+    --tw-poll-bar: #cbd5e1;
+    --tw-poll-bar-win: #bfdbfe;
+}
+
+.light .blue:hover {
+    --color: #0284c7;
+    --bg: #e0f2fe;
+}
+
+.light .red:hover {
+    --color: #dc2626;
+    --bg: #fee2e2;
+}
+
+.light .green:hover {
+    --color: #16a34a;
+    --bg: #dcfce7;
+}
+
+.tweet .quoted {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.quoted .gallery {
+    border-top: solid 1px var(--tw-border);
+}
+
+.quoted .text {
+    padding: 2px;
+}
+
+.card {
+    position: relative;
+    border: solid 1px var(--tw-og-border);
+    border-radius: var(--tw-border-radius);
+    overflow: clip;
+}
+
+.card img {
+    border-radius: unset;
+}
+
+.card .card-content {
+    background-color: var(--tw-bg);
+    border-radius: var(--tw-border-radius);
+    border: solid 1px var(--tw-border);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.card .card-content a {
+    color: unset;
+}
+
+.card .card-content p {
+    margin: unset;
+}
+
+.card .card-content .title {
+    color: var(--tw-text);
+}
+
+.card .card-content .vanity-url,
+.card .card-content .description {
+    color: var(--tw-txt-2);
+}
+
+.card .card-content .vanity-url,
+.card .card-content .title,
+.card .card-content .description {
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    /* display: -webkit-box; */
+    /* -webkit-box-orient: vertical; */
+    /* word-break: none; */
+    /* overflow: hidden; */
+    /* hyphens: auto; */
+    /* text-align: left; */
+}
+
+.card .card-content .title,
+.card .card-content .vanity-url {
+    /* -webkit-line-clamp: 1; */
+}
+
+.card .card-content .title-2,
+.card .card-content .description {
+    /* -webkit-line-clamp: 2; */
+}
+
+.card .card-content .title>a {
+    text-decoration: none;
+}
+
+.tweet .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-large {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-large picture {
+    display: contents;
+}
+
+.card-large img {
+    object-fit: cover;
+    border-bottom: solid 1px var(--tw-og-border);
+}
+
+.card-small {
+    display: block;
+    /* display: contents; */
+    /* display: grid;
+    grid-template-columns: 130px 1fr; */
+}
+
+
+.card-small picture {
+    height: 130px;
+}
+
+.card-small img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-right: solid 1px var(--tw-og-border);
+}
+
+.card-small .card-content {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    background-color: var(--tw-og-hover);
+}
+
+.card-no-image {
+    /* TODO:FIX */
+    display: none;
+    /* aspect-ratio: 1/1;
+    background-color: var(--tw-og-no-img);
+    display: grid;
+    place-items: center;
+    border-right: solid 1px var(--tw-og-border);
+    height: 100%; */
+}
+
+.card-no-image svg {
+    height: 32px;
+    width: 32px;
+    color: var(--tw-og-document);
+}
+
+.spaces-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    background-image: linear-gradient(60deg, #35f -15%, #73f 100%);
+    color: white;
+}
+
+.spaces-card .spaces-meta {
+    display: flex;
+    font-size: 1rem;
+}
+
+.spaces-card .spaces-title {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.spaces-card .spaces-btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2666666667);
+}
+
+.spaces-card .spaces-btn:hover {
+    background-color: rgba(17, 17, 17, 0.2666666667);
+}
+
+.spaces-card .spaces-date {
+    font-weight: bold;
+}
+
+.spaces-card.unavailable {
+    background-image: linear-gradient(60deg, #1f2e7a -15%, #3d1f7a 100%);
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.promo_image_convo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    gap: 6px;
+    padding-bottom: 12px;
+    border: solid 1px var(--tw-border);
+    border-radius: var(--tw-border-radius);
+}
+
+.promo_image_convo img {
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    border-bottom: solid 1px var(--tw-border);
+}
+
+.promo_image_convo .cta-btn {
+    color: var(--tw-link-text);
+    border: solid 1px var(--tw-link-text);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 32px;
+    padding: 4px;
+    width: 95%;
+}
+
+.promo_image_convo .cta-btn:visited {
+    color: var(--tw-link-text);
+}
+
+.promo_image_convo .cta-btn:hover {
+    background-color: var(--tw-link-bg-hover);
+}
+
+.poll-container {
+    position: relative;
+    color: var(--tw-text);
+    width: 100%;
+    height: 36px;
+    margin: 8px 0;
+}
+
+.progress-container-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: var(--tw-poll-radius);
+    background-color: var(--tw-poll-bar);
+}
+
+.win {
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.win-bar {
+    z-index: 0;
+    background-color: var(--tw-poll-bar-win);
+}
+
+.total {
+    color: var(--tw-txt-2);
+    font-size: 1rem;
+}
+
+.spaces-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    background-image: linear-gradient(60deg, #35f -15%, #73f 100%);
+    color: white;
+}
+
+.spaces-card .spaces-meta {
+    display: flex;
+    font-size: 1rem;
+}
+
+.spaces-card .title {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.spaces-card .spaces-btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2666666667);
+}
+
+.spaces-card .spaces-btn:hover {
+    background-color: rgba(17, 17, 17, 0.2666666667);
+}
+
+.spaces-card .spaces-date {
+    font-weight: bold;
+}
+
+.spaces-card.unavailable {
+    background-image: linear-gradient(60deg, #1f2e7a -15%, #3d1f7a 100%);
+}
+
+/* stylelint-disable no-descending-specificity */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+    border-radius: var(--tw-border-radius);
+    outline: solid 1px var(--tw-border);
+}
+
+.gallery img {
+    border-radius: unset;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery picture {
+    object-position: center center;
+}
+
+.gallery-1 {
+    display: block;
+}
+
+.gallery-1 img {
+    border-radius: var(--tw-border-radius);
+    height: auto;
+    max-width: 90vw;
+    max-height: 640px;
+    display: block;
+    object-fit: contain;
+}
+
+.gallery-2 picture {
+    grid-row: span 2;
+}
+
+.gallery-2 picture img {
+    aspect-ratio: 16/18;
+    grid-row: span 2;
+    height: 100%;
+}
+
+.gallery-3 img {
+    grid-row: span 1;
+    aspect-ratio: 16/9;
+}
+
+.gallery-3 picture:first-child {
+    grid-row: span 2;
+    height: 100%;
+}
+
+.gallery-3 picture:first-child img {
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/18;
+}
+
+.gallery-4 picture {
+    max-height: 180px;
+}
+
+.gallery-4 picture img {
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.gallery-3 picture:first-child img,
+.gallery-2 picture:first-child img {
+    border-radius: var(--tw-border-radius) 0 0 var(--tw-border-radius);
+}
+
+.gallery-2 picture:last-child img {
+    border-radius: 0 var(--tw-border-radius) var(--tw-border-radius) 0;
+}
+
+.gallery-4 picture:first-child img {
+    border-radius: var(--tw-border-radius) 0 0 0;
+}
+
+.gallery-3 picture:nth-child(2) img,
+.gallery-4 picture:nth-child(2) img {
+    border-radius: 0 var(--tw-border-radius) 0 0;
+}
+
+.gallery-4 picture:nth-child(3) img {
+    border-radius: 0 0 0 var(--tw-border-radius);
+}
+
+.gallery-3 picture:last-child img,
+.gallery-4 picture:last-child img {
+    border-radius: 0 0 var(--tw-border-radius) 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.tweet {
+    position: relative;
+    display: grid;
+    grid-template-columns: var(--profile-pic-width) auto;
+    grid-template-rows: auto auto;
+    gap: 12px 1rem;
+    outline: solid 1px var(--tw-border);
+    padding: 0.875rem;
+    border-radius: var(--tw-border-radius);
+    background-color: var(--tw-bg);
+    max-width: 640px;
+    margin: 1rem 0;
+}
+
+.tweet a,
+.tweet a:visited {
+    color: unset;
+}
+
+.tweet .text {
+    color: var(--tw-text);
+    max-width: 80vw;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.tweet .text a {
+    color: var(--tw-link-text);
+    text-decoration: none;
+}
+
+.tweet .text a:hover {
+    text-decoration: underline;
+}
+
+.tweet .text a.tw-url {
+    text-decoration: underline;
+}
+
+.tweet .text a:visited {
+    color: var(--tw-link-text);
+}
+
+.tweet p {
+    margin: unset;
+}
+
+.tweet video {
+    width: 100%;
+    height: auto;
+    max-height: 640px;
+    object-fit: contain;
+    border-radius: var(--tw-border-radius);
+}
+
+.date-compact {
+    color: var(--tw-txt-2);
+}
+
+.tweet-buttons-thread {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    gap: 1rem;
+    /* max-width: 400px; */
+    /* stylelint-disable-next-line no-descending-specificity */
+}
+
+.tweet-buttons-thread a {
+    --bg: var(--tw-bg);
+    --color: var(--tw-txt-2);
+    color: var(--color) !important;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 2px;
+}
+
+.tweet-buttons-thread svg {
+    color: var(--color);
+    background-color: var(--bg);
+    padding: 8px;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+}
+
+.profile-pic {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: max-content;
+    position: relative;
+    z-index: 10;
+}
+
+.profile-pic picture {
+    display: contents;
+}
+
+.profile-pic img {
+    background-color: var(--tw-bg);
+    width: var(--profile-pic-width);
+    height: var(--profile-pic-width);
+    border-radius: 100%;
+    z-index: 20;
+    /* outline: solid 8px var(--tw-bg); */
+}
+
+.user-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-self: center;
+    font-size: 1rem;
+}
+
+.user-info .name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    grid-column: 1/2;
+}
+
+.user-info .name span {
+    color: var(--tw-text);
+}
+
+.user-info .scr-name {
+    color: var(--tw-txt-2);
+    display: block;
+    grid-column: 1/3;
+}
+
+.user-info .checkmark {
+    display: inline-flex;
+    color: var(--tw-checkmark);
+    height: max-content;
+}
+
+.user-info .checkmark>svg {
+    width: 1.1rem;
+    color: var(--tw-checkmark);
+    height: 1.1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4px 0;
+    grid-column: span 2;
+}
+
+.content .meta {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 1rem;
+    gap: 8px;
+    margin-left: -4px;
+    /* stylelint-disable-next-line no-descending-specificity */
+}
+
+.content .meta a {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.content .meta svg {
+    border-radius: 100%;
+    padding: 4px;
+    width: 18px;
+    height: 18px;
+    color: var(--tw-txt-2);
+}
+
+.thread-wrapper {
+    max-width: 640px;
+    margin: 1rem 0;
+    border: solid 1px var(--tw-border);
+}
+
+.thread-wrapper .tweet {
+    margin: 0;
+    border-radius: 0;
+}
+
+.quoted {
+    --profile-pic-width: 1.2rem;
+    margin: unset;
+    align-items: start;
+    gap: 2px 6px;
+    padding: 10px;
+}
+
+.quoted .profile-pic {
+    height: 100%;
+    min-height: 2rem;
+}
+
+.quoted .profile-pic::before {
+    display: none;
+}
+
+.quoted .profile-pic img {
+    outline: none;
+}
+
+.quoted .user-info {
+    display: flex;
+    font-size: 1rem;
+    gap: 8px;
+}
+
+.quoted .date-compact {
+    display: initial;
+}
+
+.quoted .text {
+    font-size: 1rem;
+}
+
+.quoted .content {
+    padding: unset;
+}
+
+.quoted .checkmark {
+    padding: unset;
+    padding: 0 3px;
+}
+
+.thread {
+    outline: unset;
+}
+
+.thread .profile-pic,
+.timeline .profile-pic {
+    height: 100%;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.thread .profile-pic picture,
+.timeline .profile-pic picture {
+    display: contents;
+}
+
+.thread .user-info,
+.timeline .user-info {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+}
+
+.thread .content,
+.timeline .content {
+    font-size: 1rem;
+    grid-column: span 1;
+}
+
+.thread .date-compact,
+.timeline .date-compact {
+    display: initial;
+}
+
+.thread .meta,
+.thread .tw-date,
+.thread .tw-place,
+.timeline .meta,
+.timeline .tw-date,
+.timeline .tw-place {
+    display: none;
+}
+
+.user-info .name:hover {
+    text-decoration: underline;
+}
+
+.thread .text {
+    font-size: 1rem;
+}
+
+.text-secondary {
+    color: var(--tw-txt-2);
+}
+
+a.tw-date,
+a.tw-place {
+    font-size: 1rem;
+    color: var(--tw-txt-2) !important;
+    text-decoration: none;
+}
+
+a.tw-date:hover,
+a.tw-place:hover {
+    text-decoration: underline;
+}
+
+.meta a.link,
+.meta a.likes {
+    color: var(--tw-txt-2);
+}
+
+a.likes:hover {
+    color: var(--tw-likes-text-hover);
+}
+
+a.likes:hover svg {
+    background-color: var(--tw-likes-bg-hover);
+    color: var(--tw-likes-text-hover);
+}
+
+a.link:hover {
+    color: var(--tw-link-text-hover);
+}
+
+a.link:hover svg {
+    color: var(--tw-link-text-hover);
+    background-color: var(--tw-link-bg-hover);
+}
+
+.thread .quoted .content {
+    grid-column: span 2;
+}
+
+.thread .profile-pic::before {
+    background: var(--tw-thread-line);
+    content: "";
+    position: absolute;
+    min-width: 2px;
+    border-radius: 0;
+    left: 50%;
+    right: 50%;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.thread-wrapper :not(.tweet:last-child).profile-pic::before {
+    top: -16px;
+    bottom: -16px;
+}
+
+.thread-wrapper .tweet:first-child .profile-pic::before {
+    top: 0;
+    bottom: -14px;
+}
+
+.thread-wrapper .tweet:last-child .profile-pic::before {
+    top: -14px;
+    height: 20px;
+}
+
+.focus .date-compact {
+    display: none;
+}
+
+/* @media (max-width: 512px) {
+    .user-info .name {
+        width: max-content;
+    }
+    .user-info .name span:first-child {
+        border: solid 1px red;
+        flex: 1;
+        max-width: 40;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .tweet .date-compact {
+        display: none;
+    }
+} */
+
+
+body {
+    margin: unset;
+    padding: unset;
+}
+
+
+@media (max-width: 720px) {
+    .tweet {
+        border: unset;
+        border-left: unset;
+        border-right: unset;
+        max-width: 90vw;
+        padding: 1rem 6px;
+    }
+    .chunk {
+        padding: 0 0;
+    }
+
+    .user-info .name {
+        width: max-content;
+        display: flex;
+    }
+
+    .name-str {
+        flex: 1;
+        max-width: 50vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .scr-name {
+        flex: 1;
+        max-width: 20ch;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .tweet .date-compact {
+        display: none;
+    }
+}
+
+.name-container {
+    display: flex;
+    gap: 2px;
+}

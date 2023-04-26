@@ -1,0 +1,13 @@
+## Tasks
+
+- [ ] Data: Comprehensive list of test tweets with tags + 
+- [ ] Data: Document all features i can gather from twitter
+- [ ] Code: Stories for tweets without data ie: ladle
+- [ ] Code: Reference markup + tests. Ideal for writing across implementations.
+- [ ] Code: Semi Automated Screenshots w playwright
+- [ ] Code: Generic Component to display twitter-like social media ie: mastodon
+- [ ] Code: Fast batch downloader of tweets in js (w http multiplexing)
+- [ ] Code: Create reasonable schema for tweets and normalizer
+- [ ] Cron: LinkRot Checker incase tests or apis get deprecated
+- [ ] Experiment with search that can run in browser
+- [ ] Experiment with fast rendering of large list of tweets 100 - 10k
